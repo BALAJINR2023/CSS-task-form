@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUVERY FORM</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+<div class="main">
+    <form>
+        <div class="form">
+    <div><label style="font-family: 'Times New Roman', Times, serif;"><b>NAME</b><sup style="color: red;">*</sup></label></div>
+    <div class="name">
+    <input  style="font-family: 'Times New Roman', Times, serif;" type="text" name="fristname">
+    <input  style="font-family: 'Times New Roman', Times, serif;" type="text" name="lastname">
+    </div>
+    <div class="subname">
+    <label  style="font-family: 'Times New Roman', Times, serif;">First</label>
+    <label  style="font-family: 'Times New Roman', Times, serif;">Last</label>
+    </div>
+   
+    <div><label  style="font-family: 'Times New Roman', Times, serif;"><b>EMAIL</b><sup style="color: red;">*</sup></label></div>
+    <div><input  style="font-family: 'Times New Roman', Times, serif;" type="email" class="email" name="fristname"></div>
+    <div><label  style="font-family: 'Times New Roman', Times, serif; padding-top: 10px;"><b>Your Experience</b><sup style="color: red;">*</sup></label></div>
+    <div>
+        <span onclick="gfg(1)" class="star">★</span>
+        <span onclick="gfg(2)" class="star">★</span>
+        <span onclick="gfg(3)" class="star">★</span>
+        <span onclick="gfg(4)" class="star">★</span>
+        <span onclick="gfg(5)" class="star">★</span>
+    </div>
+    <div  style="font-family: 'Times New Roman', Times, serif; padding-top: 10px;">Overall, how would you rate you experience with us?</div>
+    <div  style="font-family: 'Times New Roman', Times, serif; padding: 10px 0px;"><b>How satisfied are you with</b><sup style="color: red;">*</sup></div>
+    <div>
+        <table class="table table-striped">
+            <tr>
+              <th></th>
+              <th style="text-align: center;">Very Unsatisfied</th>
+              <th style="text-align: center;">Unsatisfied</th>
+              <th style="text-align: center;">Neutral</th>
+              <th style="text-align: center;">Satisfied</th>
+              <th style="text-align: center;">Very Satisfied</th>
+            </tr>
+            <tr>
+              <td>Purchase</td>
+              <td style="text-align: center;"><input type="radio" name="purchase"></td>
+              <td style="text-align: center;"><input type="radio" name="purchase"></td>
+              <td style="text-align: center;"><input type="radio" name="purchase"></td>
+              <td style="text-align: center;"><input type="radio" name="purchase"></td>
+              <td style="text-align: center;"><input type="radio" name="purchase"></td>
+            </tr>
+            <tr>
+                <td>Service</td>
+                <td style="text-align: center;"><input type="radio" name="service"></td>
+                <td style="text-align: center;"><input type="radio" name="service"></td>
+                <td style="text-align: center;"><input type="radio" name="service"></td>
+                <td style="text-align: center;"><input type="radio" name="service"></td>
+                <td style="text-align: center;"><input type="radio" name="service"></td>
+              </tr>
+              <tr>
+                <td>company Overall</td>
+                <td style="text-align: center;"><input type="radio" name="company"></td>
+                <td style="text-align: center;"><input type="radio" name="company"></td>
+                <td style="text-align: center;"><input type="radio" name="company"></td>
+                <td style="text-align: center;"><input type="radio" name="company"></td>
+                <td style="text-align: center;"><input type="radio" name="company"></td>
+              </tr>
+          </table>
+    <div  style="font-family: 'Times New Roman', Times, serif; padding: 10px 0px;"><b>How likely are you to</b><sup style="color: red;">*</sup></div>
+          <table class="table table-striped">
+            <tr>
+              <th></th>
+              <th style="text-align: center;">Very Unlikely</th>
+              <th style="text-align: center;">Unlikely</th>
+              <th style="text-align: center;">Neutral</th>
+              <th style="text-align: center;">Likely</th>
+              <th style="text-align: center;">Very Likely</th>
+            </tr>
+            <tr>
+              <td>Buy from us again</td>
+              <td style="text-align: center;"><input type="radio" name="Buy"></td>
+              <td style="text-align: center;"><input type="radio" name="Buy"></td>
+              <td style="text-align: center;"><input type="radio" name="Buy"></td>
+              <td style="text-align: center;"><input type="radio" name="Buy"></td>
+              <td style="text-align: center;"><input type="radio" name="Buy"></td>
+            </tr>
+            <tr>
+                <td>Recommend our product to others</td>
+                <td style="text-align: center;"><input type="radio" name="product"></td>
+                <td style="text-align: center;"><input type="radio" name="product"></td>
+                <td style="text-align: center;"><input type="radio" name="product"></td>
+                <td style="text-align: center;"><input type="radio" name="product"></td>
+                <td style="text-align: center;"><input type="radio" name="product"></td>
+              </tr>
+              <tr>
+                <td>Recommend our company to others</td>
+                <td style="text-align: center;"><input type="radio" name="others"></td>
+                <td style="text-align: center;"><input type="radio" name="others"></td>
+                <td style="text-align: center;"><input type="radio" name="others"></td>
+                <td style="text-align: center;"><input type="radio" name="others"></td>
+                <td style="text-align: center;"><input type="radio" name="others"></td>
+              </tr>
+          </table>
+    </div>
+    <div  style="font-family: 'Times New Roman', Times, serif; padding: 10px 0px;"><b>Additional comments or suggestions</b></div>
+    <div><textarea  style="font-family: 'Times New Roman', Times, serif;" rows="5" cols="70"></textarea></div>
+    <div><button style="font-family: 'Times New Roman', Times, serif; margin: 10px 0px;">Submit</button></div>
+        </div>
+      </form>
+</div>
+    <script src="/java.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+</html>
